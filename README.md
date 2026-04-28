@@ -24,4 +24,4 @@ ________________________________________
 C. Experimental Results
 The following measurements were taken using System.nanoTime() on a Windows machine.
 Execution Time Table (nanoseconds)
-
+![Program Output](docs/screenshots/results.png)
