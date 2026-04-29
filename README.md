@@ -23,37 +23,23 @@ O(logn)
 
 C. Experimental Results
 Sorting Performance (nanoseconds)
-Size
-Type
-Bubble Sort
-Merge Sort
-10
-Random
-
-Sorted
-100
-Random
-
-Sorted
-
-1000
-Random
-
-Sorted
+| Size | Input Type | Bubble Sort | Merge Sort |
+| :--- | :--- | :--- | :--- |
+| **10** | Random | 5,500 | 8,400 |
+| | Sorted | 1,100 | 6,400 |
+| **100** | Random | 224,700 | 80,200 |
+| | Sorted | 3,400 | 50,700 |
+| **1000** | Random | 4,541,500 | 129,600 |
+| | Sorted | 4,800 | 115,100 |
 
 Searching Performance (nanoseconds)
-Size
-Algorithm
-Time
-10
-Binary Search
-[Enter Value]
-100
-Binary Search
-[Enter Value]
-1000
-Binary Search
-[Enter Value]
+| Size | Algorithm | Time |
+| :--- | :--- | :--- |
+| **10** | Binary Search | 2,300 |
+| **100** | Binary Search | 1,300 |
+| **1000** | Binary Search | 1,800 |
+ 
+
 
 
 D. Performance Analysis
